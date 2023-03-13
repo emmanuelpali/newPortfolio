@@ -448,6 +448,6 @@ border-bottom: 1px solid var(--orange);
   @media screen and (min-width: 600px){
     .featuredpost {
       min-height: 0;
-      height: 350px;
+      height: 320px;
     }
   }
