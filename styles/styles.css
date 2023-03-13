@@ -237,6 +237,8 @@ main {
     min-height: 400px;
     position: relative;
     border-radius: .5rem;
+    max-width: 400px;
+    margin: 0 auto;
     text-align: center;
     overflow: hidden;
     box-shadow: 14px 14px 60px -10px rgba(0,0,0,.3)
@@ -252,7 +254,7 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position:  -5% -10%;;
+    object-position:  -5% -10%;
 }
 
 .featuredpost__inner {
@@ -441,4 +443,11 @@ footer a{
   footer a:hover{
 border-bottom: 1px solid var(--orange);
     color: var(--orange);
+  }
+
+  @media screen and (min-width: 600px){
+    .featuredpost {
+      min-height: 0;
+      height: 350px;
+    }
   }
