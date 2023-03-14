@@ -126,7 +126,7 @@ body {
     transition: transform 0.2s ease-in-out;
   }
 
-  .mynav a:hover {
+  .mynav .nav-link:hover {
     color: var(--orange);
     border-bottom: 1px solid var(--orange)
   } 
@@ -285,7 +285,14 @@ main {
     font-weight: 500;
     font-size: 1.75rem;
     line-height: 1.4;
+    cursor: pointer;
 }
+
+.featuredpost__title:hover {
+  color: var(--orange);
+    border-bottom: 1px solid var(--orange)
+}
+
 .featuredpost__inner a {
     text-decoration: none;
 }
