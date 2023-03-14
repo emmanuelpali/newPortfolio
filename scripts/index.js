@@ -6,7 +6,6 @@ const skillsArray = ["JavaScript","C#",".Net","React","CSS","Bootstrap","NodeJS/
 
 var counter = 0;
 setInterval(function(){
-    // do your thing
     stack.innerHTML = " " + skillsArray[counter]
     counter++;
     if(counter === skillsArray.length) {
@@ -16,25 +15,7 @@ setInterval(function(){
 
 let intro = document.getElementsByClassName("stackHolder");
 
-// let arr = "I'm Emmanuel, a software developer with a passion for creating visually stunning websites and applications that deliver unparalleled user experiences. I have experience working with".split("");
-
-// console.log(intro);
-
-// function displayLetters(arr) {
-//     let i = 0;
-//     const interval = setInterval(function() {
-//       intro[0].innerHTML += "" + arr[i];
-//       i++;
-//       if (i === arr.length) {
-//         clearInterval(interval);
-//       }
-//     }, 20);
-
-//   }
-
-
-
-// / ----------------------SKILLS ------------------------/ 
+// ----------------------SKILLS ------------------------/ 
 
 
 
@@ -42,7 +23,6 @@ let intro = document.getElementsByClassName("stackHolder");
 const container = document.getElementById('skills-container');
 const generalArray = ["JavaScript","SASS","MongoDB","C#",".Net","React","CSS","Bootstrap","NodeJS","Express"];
 const numBalls = 10;
-console.log(container);
 const balls = [];
 
 function getRandomPosition(max) {
@@ -64,7 +44,6 @@ function createBall() {
   // Set a random position for the ball
 
   let x = getRandomPosition(container.offsetWidth);
-  console.log(container.offsetHeight);
   let y = getRandomPosition(container.offsetHeight);
   let z = getRandomPosition(500);
   ball.style.transform = `translate3d(${x}px, ${y}px, ${z}px)`;

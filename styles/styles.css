@@ -43,9 +43,9 @@ h1, i {
     font-family: Verdana, sans-serif;
   }
   img {
-    max-width: 100%; /* Set maximum width for image to 100% of its container */
-    height: auto; /* Set height to auto to maintain aspect ratio */
-    display: block; /* Remove any default spacing around the image */
+    max-width: 100%;
+    height: auto; 
+    display: block; 
   }
 
   /*-------HEADER styles-------*/
